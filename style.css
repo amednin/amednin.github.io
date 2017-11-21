@@ -1,0 +1,2885 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*fuentes----------------------------------------------------------------------------->*/
+@font-face {
+  font-family: "aero";
+  src: url("AERO.TTF") format("truetype");
+}
+@font-face {
+  font-family: "eurostilebold";
+  src: url("Eurostile Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "eurostilenormal";
+  src: url("eurostyle normal.ttf") format("truetype");
+}
+/*fuentes----------------------------------------------------------------------------->*/
+body {
+  background-color: #c3c4c6;
+  background-image: url("red.png"), url("pelota.png");
+  background-position: top left, bottom;
+  background-repeat: repeat, no-repeat;
+  /*background-image: url("pelota.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;*/
+  margin: 0px;
+}
+/* Inicio-Header----------------------------------------------------------------------->*/
+body header {
+  display: block;
+  width: 100%;
+  border-bottom: 3px solid #0094da;
+  margin: 0px;
+  padding: 0px;
+}
+body header section #contenedor-header {
+  display: block;
+  margin: 0px auto;
+  width: 960px;
+  padding: 0px;
+}
+body header section #contenedor-header .logo {
+  background-image: url("logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  float: left;
+  width: 209px;
+  height: 118px;
+  padding: 0px;
+  margin: 30px 30px 30px 10px;
+}
+body header section #contenedor-header .login {
+  display: block;
+  float: right;
+  margin: 30px 10px 30px 0;
+  padding: 0px;
+}
+body header section #contenedor-header .login .formulario {
+  display: block;
+  float: left;
+  margin: 2px;
+  padding: 2px;
+}
+body header section #contenedor-header .login .formulario form .log-caja{
+  display: block;
+  background-color: #0094da;
+  border-bottom: 2px solid #59595b;
+  margin: -19px 0px 0px 0px;
+  padding: 0 2px 0 0;
+}
+body header section #contenedor-header .login .formulario form .log-caja .log-box{
+  display: block;
+  margin: -42px 0px 0px 98px;
+}
+body header section #contenedor-header .login .formulario form .log-caja h4 {
+  color:#fff;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  font-family: eurostilebold;
+  padding: 4px 0px 0px 4px;
+}
+body header section .login .avatar {
+  display: block;
+  background-image: url("avatar.png"); 
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 53px;
+  height: 53px;
+  float: right;
+  margin: 6px 0 0;
+  padding: 0px;
+}
+/*navegacion------------------------------------------------------------------------------->*/
+body header section nav {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body header section nav .navegacion {
+  float: right;
+  display: block;
+  margin: 0 9px 0 0;
+}
+body header section nav .navegacion ul {
+  margin: 7px 0 0;
+  padding: 0px;
+}
+body header section nav .navegacion ul a li {
+  display: block;
+  float: left;
+  background-color: #efefef;
+  padding: 15px;
+  margin: 0 1px -3px;
+  border-bottom: 3px solid #0094da;
+  font-family: eurostilebold;
+  }
+body header section nav .navegacion ul a li.ini {
+  width: 84px; 
+}
+body header section nav .navegacion ul a li.clicked {
+  color: #fff;
+  background-color: #f68121;
+  border-bottom: 3px solid #f4c600;
+}
+body header section nav .navegacion ul a li.cam {
+  width: 138px; 
+}
+body header section nav .navegacion ul a li.eq {
+  width: 102px; 
+}
+body header section nav .navegacion ul a li.fix {
+  width: 94px; 
+}
+body header section nav .navegacion ul a li.not {
+  width: 99px; 
+}
+body header section nav .navegacion ul a {
+  color: #59595b;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+}
+body header section nav .navegacion ul a li:hover {
+  color: #fff;
+  background-color: #f68121;
+  border-bottom: 3px solid #f4c600;
+}
+.limpiador {
+  clear: both;
+}
+/*fin header----------------------------------------------------------->*/
+/*cuerpo--------------------------------------------------------------->*/
+body article {
+  display: block;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+body article section {
+  width: 100%;
+  margin: 0px;
+  display: block;
+}
+body article section #cuerpo {
+  width: 100%;
+  margin: 0px;
+  display: block;
+}
+body article section #cuerpo .slider {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("slider.png");
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 501px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.6);
+  border-bottom: 3px solid #0094da;
+}
+body article section #cuerpo .slider .letrero {
+  display: block;
+  float: left;
+  padding: 0px;
+  margin: 90px 0px 0px 240px;
+}
+body article section #cuerpo .slider .letrero h5 {
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+  font-family: eurostilebold;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.6);
+}
+body article section #cuerpo .slider .letrero h3 {
+  margin: 0px;
+  padding: 0px;
+  color: #f58220;
+  font-family: aero;
+  font-size: 60px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0px #fff;
+}
+body article section #cuerpo .slider .letrero h2 {
+  margin: 0px;
+  padding: 0px;
+  color: #0095da;
+  font-family: aero;
+  font-size: 80px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0px #fff;
+}
+body article section #cuerpo .slider .letrero h4 {
+  margin: 0 340px 0 0;
+  padding: 0 15px 0 5px;
+  font-family: eurostilebold;
+  font-size: 35px;
+  background-color: #f58220;
+  
+}
+body article section #cuerpo .slider .letrero h4:hover {
+  /*box-shadow: 0 0 1px 3px rgba(255, 255, 255, 0.75) inset;*/
+  background-color: inherit;
+}
+body article section #cuerpo .slider .letrero h4 a {
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+  padding: 0px;
+}
+body article section #cuerpo .slider .letrero h4 a:hover {
+  color: #F58220;
+  text-shadow: 2px 2px 1px #fff;
+  
+}
+body article section #cuerpo .slider .flechas-slider {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .slider .flechas-slider .flecha-slider-izq {
+  display: block;
+  float: left;
+  margin: 230px 0 0 -695px;
+  padding: 0px;
+  background-image: url("flecha-sliders.png");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+body article section #cuerpo .slider .flechas-slider .flecha-slider-izq:hover {
+  background-position: 0px -40px;
+  background-image: url("flecha-sliders.png");
+}
+body article section #cuerpo .slider .flechas-slider .flecha-slider-der {
+  display: block;
+  float: right;
+  margin: 230px 115px 0px 0px;
+  padding: 0px;
+  background-image: url("flecha-sliders.png");
+  background-position: -40px 0px;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+body article section #cuerpo .slider .flechas-slider .flecha-slider-der:hover {
+  background-position: -40px -40px;
+  background-image: url("flecha-sliders.png");
+}
+body article section #cuerpo .links-noticias {
+  display:block;
+  width: 960px;
+  margin: 0 auto;
+  height: 200px; 
+}
+body article section #cuerpo .links-noticias .links-rapidos {
+  float: left;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 0px;
+}
+body article section #cuerpo .links-noticias .links-rapidos nav {
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .links-noticias .links-rapidos nav ul li {
+  display: block;
+  float: left;
+  width: 226px;
+  margin: 0 7px;
+}
+body article section #cuerpo .links-noticias .links-rapidos nav ul {
+  margin: -80px 0px;
+  padding: 0px;
+}
+body article section #cuerpo .links-noticias .links-rapidos nav ul li .caja-campeonatos {
+  background-image: url("campeonatos.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 220px;
+  height: 335px;
+  border: 3px solid #fff;
+  padding: 0px;
+  margin: 0px;
+}
+body article section #cuerpo .links-noticias .links-rapidos nav ul li .caja-equipos {
+  background-image: url("equipos.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 220px;
+  height: 335px;
+  border: 3px solid #fff;
+  padding: 0px;
+  margin: 0px;
+}
+body article section #cuerpo .links-noticias .links-rapidos nav ul li .caja-fixture {
+  background-image: url("fixture.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 220px;
+  height: 335px;
+  border: 3px solid #fff;
+  padding: 0px;
+  margin: 0px;
+}
+body article section #cuerpo .links-noticias .links-rapidos nav ul li .caja-noticias {
+  background-image: url("noticias.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 220px;
+  height: 335px;
+  border: 3px solid #fff;
+  padding: 0px;
+  margin: 0px;
+}
+body article section #cuerpo .links-noticias .links-rapidos nav ul li a h3 {
+  float: left;
+  display: block;
+  background-color: rgba(1, 115, 170, 0.9);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.6);
+  width: 220px;
+  margin: -41px 3px;
+  padding: 9px 0;
+  font-size: 18px;
+  font-family: eurostilebold;
+}
+body article section #cuerpo .links-noticias .links-rapidos nav ul li a h3:hover {
+  background-color: #f68121;
+  border-bottom: 3px solid #f4c600;
+}
+body article section #cuerpo .links-noticias .noticias-mapa {
+  float: left;
+  width: 100%;
+  display: block;
+  margin: 40px auto;
+  padding: 0px;
+}
+body article section #cuerpo .links-noticias .noticias-mapa .noticias {
+  display: block;
+  float: left;
+  width: 380px;
+  margin: 0px 8px;
+}
+body article section #cuerpo .links-noticias .noticias-mapa .noticias h2 {
+  display: block;
+  float: left;
+  color: #fff;
+  background-color: #f58220;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  border: 2px solid #fff;
+  font-size: 15px;
+  margin: 0px;
+  padding: 10px;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.6);
+  font-family: aero;
+}
+body article section #cuerpo .links-noticias .noticias-mapa .mapa h2 {
+  display: block;
+  float: left;
+  color: #fff;
+  background-color: #f58220;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  border: 2px solid #fff;
+  font-size: 15px;
+  margin: 0px;
+  padding: 10px;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.6);
+  font-family: aero;
+}
+body article section #cuerpo .links-noticias .noticias-mapa .noticias .noticias-contenido {
+  display: block;
+  float: left;
+  background-color: #ffde2f;
+  border: 2px solid #fff;
+  margin: 2px 0;
+  padding: 10px;
+  overflow: auto;
+  width: 356px;
+  height: 334px;
+  box-shadow: 11px 11px 6px -11px inset;
+}
+body article section #cuerpo .links-noticias .noticias-mapa .noticias .noticias-contenido h4 {
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #f58220;
+  border-bottom: 1px solid #f58220;
+  padding: 3px 0px;
+  margin: 2px 0;
+  font-family: eurostilebold;
+}
+body article section #cuerpo .links-noticias .noticias-mapa .noticias .noticias-contenido p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #58595b;
+  padding: 3px 0px;
+  margin: 2px 0;
+  font-family: eurostilenormal;
+}
+body article section #cuerpo .links-noticias .noticias-mapa .mapa {
+  float: right;
+  margin: 0 8px;
+}
+body article section #cuerpo .links-noticias .noticias-mapa .mapa .ubica {
+  background-image: url("mapa.png");
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border: 4px solid #fff;
+  display: block;
+  width: 540px;
+  height: 350px;
+  margin-top: 64px;
+}
+
+/*fin cuerpo----------------------------------------------------------------------->*/
+body footer {
+  display: block;
+  /*float: left;*/
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  /*background-color: rgba(255, 255, 255, 0.9);*/
+}
+footer section .transparencia {
+  display: block;
+  width: 100%;
+  height: 274px;
+  background-color: rgba(255, 255, 255, 0.45);
+  margin: -260px 0 20px;
+  padding: 0px;
+  border-top: 3px solid #0094da;
+  border-bottom: 3px solid #0094da;
+}
+footer section .contenedor-footer {
+  display: block;
+  width: 960px;
+  height: 260px;
+  margin: 0 auto;
+  padding: 0px;
+}
+footer section .contenedor-footer .mapa-sitio {
+  display: block;
+  float: left;
+  width: 100%;
+}
+footer section .contenedor-footer .mapa-sitio .mapa-lista {
+  display: block;
+  float: left;
+  margin: 10px 19px;
+}
+footer section .contenedor-footer .mapa-sitio .mapa-lista h1{
+  font-size: 23px;
+  letter-spacing: 1px;
+  color: #0095da;
+  margin: 0px;
+  padding: 0px;
+  font-family: aero;
+}
+footer section .contenedor-footer .mapa-sitio .mapa-lista ul li {
+  list-style: none;
+  font-size: 19px;
+  letter-spacing: 1px;
+  margin-left: -40px;
+  padding: 0px;
+  color: #7c7d7e;
+  font-family: eurostilenormal;
+}
+footer section .contenedor-footer .final-footer {
+  display: block;
+  float: left;
+  width: 100%;
+  margin: 0px 0px;
+}
+footer section .contenedor-footer .final-footer h4 {
+  display: block;
+  float: left;
+  padding: 0px;
+  color: #f58220;
+  margin: 0px 0px 20px 40px;
+  font-size: 13px;
+  font-family: arial, Bold;
+  text-transform: uppercase;
+}
+footer section .contenedor-footer .final-footer .redes-sociales {
+  display: block;
+  float: left;
+  margin: 0px 0px 0px 306px;
+  padding: 0px;
+  width: 274px;
+}
+footer section .contenedor-footer .final-footer .redes-sociales h1 {
+  display: block;
+  padding: 0px;
+  color: #f58220;
+  font-size: 17px;
+  float:left;
+  font-family: arial, Bold;
+  margin: 5px 10px 0px 0px;
+}
+footer section .contenedor-footer .final-footer .redes-sociales .tamanio {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin: -7px 3px;
+}
+footer section .contenedor-footer .final-footer .redes-sociales a .face {
+  display: block; 
+  background-image: url("logos-redes.png"); 
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-position: auto auto;
+  
+}
+footer section .contenedor-footer .final-footer .redes-sociales a:hover .face {
+  display: block; 
+  background-image: url("logos-redes.png"); 
+  background-position: 0px -40px;
+  background-repeat: no-repeat;
+  background-position: auto auto;
+}
+footer section .contenedor-footer .final-footer .redes-sociales a .twit {
+  display: block; 
+  background-image: url("logos-redes.png"); 
+  background-position: -40px 0px;
+  background-repeat: no-repeat;
+  background-position: auto auto;
+}
+footer section .contenedor-footer .final-footer .redes-sociales a:hover .twit {
+  display: block; 
+  background-image: url("logos-redes.png"); 
+  background-position: -40px -40px;
+  background-repeat: no-repeat;
+  background-position: auto auto;
+}
+footer section .contenedor-footer .final-footer .redes-sociales a .google {
+  display: block; 
+  background-image: url("logos-redes.png"); 
+  background-position: -80px 0px;
+  background-repeat: no-repeat;
+  background-position: auto auto;
+}
+footer section .contenedor-footer .final-footer .redes-sociales a:hover .google {
+  display: block; 
+  background-image: url("logos-redes.png"); 
+  background-position: -80px -40px;
+  background-repeat: no-repeat;
+  background-position: auto auto;
+}
+footer section .contenedor-footer .final-footer .redes-sociales a .youtube {
+  display: block; 
+  background-image: url("logos-redes.png"); 
+  background-position: -120px 0px;
+  background-repeat: no-repeat;
+  background-position: auto auto;
+}
+footer section .contenedor-footer .final-footer .redes-sociales a:hover .youtube {
+  display: block; 
+  background-image: url("logos-redes.png"); 
+  background-position: -120px -40px;
+  background-repeat: no-repeat;
+  background-position: auto auto;
+}
+footer section .contenedor-footer .final-footer .logo {
+  display: block;
+  float: right;
+  background-image: url("logo.png"); 
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 105px;
+  height: 69px;
+  margin: -25px 20px 0 0;
+}
+/*Campeonatos Landing----------------------------------------------------------------------------------*/
+
+
+body article section #cuerpo .contenedor-campeonatos {
+  display: block;
+  padding: 5px 5px;
+  width: 960px;
+  margin: 20px auto;
+}
+body article section #cuerpo .contenedor-campeonatos nav {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja {
+  display: block;
+  margin: 5px;
+  padding: 0px;
+  background-color: #fff;
+  border: 3px solid #f5c600;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.75);
+  width: 464px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cabeza-campeonato {
+  display: block;
+  margin: 10px;
+  padding: 0px;
+  border-bottom: 1px solid #f58220;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cabeza-campeonato .nombre-campeonato {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cabeza-campeonato .nombre-campeonato a {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: aero;
+  font-size: 30px;
+  color: #0095da;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+/*Cajas Vacias-------------------------------------------------------*/
+
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-vacio {
+  display: block;
+  margin: 5px;
+  padding: 0px;
+  background-color: #c3c4c6;
+  border: 3px solid #6d6e71;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.75);
+  width: 464px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-vacio .cabeza-vacio {
+  display: block;
+  margin: 10px;
+  padding: 0px;
+  border-bottom: 1px solid #fff;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-vacio .cabeza-vacio .nombre-vacio {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-vacio .cabeza-vacio .nombre-vacio h1 {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: aero;
+  font-size: 30px;
+  color: #6d6e71;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  font-style: italic;
+  letter-spacing: 1px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-vacio .cabeza-vacio .nombre-vacio h5 {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: eurostilenormal;
+  font-size: 14px;
+  color: #fff;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-vacio .cabeza-vacio .contenedor-logo-vacio {
+  display: block;
+  margin: -85px 0 0 332px;
+  padding: 0px;
+  background-color: #6d6e71;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  width: 110px;
+  height: 85px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-vacio .cabeza-vacio .contenedor-logo-vacio .logo-vacio {
+  background-image: url("logo-gris.png");
+  background-position: center center;
+  background-size: 100% 100%;
+  width: 100px;
+  height: 60px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-vacio .cabeza-vacio .contenedor-logo-vacio .posicion-vacio {
+  display: block;
+  margin: 13px 5px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-vacio .cuerpo-vacio {
+  display: block;
+  margin: 10px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-vacio .cuerpo-vacio .pelota-gris {
+  background-image: url("pelota-gris.png");
+  background-size: 100% 100%;
+  background-position: auto auto;
+
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-vacio .cuerpo-vacio .posicion-gris {
+  width: 140px;
+  height: 140px;
+  margin: 47px 162px;
+  padding: 0px;
+}
+
+/*Hover Cajas ---------------------------------------------------------------*/
+
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-vacio:hover {
+  border: 3px solid #fff;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-vacio:hover > .cabeza-vacio {
+  display: block;
+  margin: 10px;
+  padding: 0px;
+  border-bottom: 1px solid #e49450;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-vacio:hover > .cabeza-vacio .nombre-vacio h1 {
+  color: #f58220;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-vacio:hover > .cabeza-vacio .nombre-vacio h5 {
+  color: #58595b;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-vacio:hover > .cabeza-vacio .contenedor-logo-vacio {
+  border-top: 1px solid #e49450;
+  border-left: 1px solid #e49450;
+  border-right: 1px solid #e49450;
+  background-color: #bcbec0;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-vacio:hover > .cabeza-vacio .contenedor-logo-vacio .logo-vacio {
+  background-image: url("logo-blanco.png");
+  
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-vacio:hover > .cuerpo-vacio .pelota-gris {
+  background-image: url("pelota-blanca.png");
+}
+
+/*Fin Hover Cajas ---------------------------------------------------------------*/
+
+/*Fin Cajas Vacias-------------------------------------------------------*/
+
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cabeza-campeonato .nombre-campeonato a:hover {
+  text-shadow: 1px 1px 1px #0095DA ;
+  color: #F58220;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cabeza-campeonato .nombre-campeonato a h1 {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cabeza-campeonato .nombre-campeonato h5 {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: eurostilenormal;
+  font-size: 14px;
+  color: #f58220;
+  font-style: italic;
+  letter-spacing: 1.5px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cabeza-campeonato .contenedor-escudo {
+  display: block;
+  margin: -85px 0 0 332px;
+  padding: 0px;
+  background-color: #f5c600;
+  border-top: 1px solid #f58220;
+  border-left: 1px solid #f58220;
+  border-right: 1px solid #f58220;
+  width: 110px;
+  height: 85px;
+}
+
+/*Link para Campeonatos interna-------------------------------------------*/
+
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cabeza-campeonato .contenedor-escudo .caja-detalle {
+  display: none;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cabeza-campeonato .contenedor-escudo .caja-detalle a {
+  display: block;
+  margin: -24px 0 0 -1px;
+  padding: 2px 5px;
+  color: #FDDD32;
+  background-color: #fff;
+  border: 2px solid #F58220;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-family: aero;
+  font-size: 15px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cabeza-campeonato .contenedor-escudo:hover > .caja-detalle {
+  display: block;
+}
+
+/*Fin Link para Campeonatos interna-------------------------------------------*/
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cabeza-campeonato .contenedor-escudo .escudo-campeon1 {
+  background-image: url("escudo1.png");
+  background-position: center center;
+  background-size: 100% 100%;
+  width: 61px;
+  height: 75px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cabeza-campeonato .contenedor-escudo .escudo-campeon2 {
+  background-image: url("escudo2.png");
+  background-position: center center;
+  background-size: 100% 100%;
+  width: 61px;
+  height: 75px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cabeza-campeonato .contenedor-escudo .escudo-campeon3 {
+  background-image: url("escudo3.png");
+  background-position: center center;
+  background-size: 100% 100%;
+  width: 61px;
+  height: 75px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cabeza-campeonato .contenedor-escudo .escudo-campeon4 {
+  background-image: url("escudo4.png");
+  background-position: center center;
+  background-size: 100% 100%;
+  width: 61px;
+  height: 75px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cabeza-campeonato .contenedor-escudo .posicion-escudo {
+  display: block;
+  margin: 5px 25px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cuerpo-campeonato {
+  display: block;
+  margin: 10px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cuerpo-campeonato .foto-nombre {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cuerpo-campeonato .foto-nombre h2 {
+  display: block;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: aero;
+  font-size: 19px;
+  background-color: #f58220;
+  color: #fff;
+  font-style: italic;
+  letter-spacing: 1px;
+  width: 175px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cuerpo-campeonato .foto-nombre .foto-campeon1 {
+  background-image: url("fotocampeon1.png");
+  background-size: 100% 100%;
+  background-position: auto auto;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cuerpo-campeonato .foto-nombre .foto-campeon2 {
+  background-image: url("fotocampeon2.png");
+  background-size: 100% 100%;
+  background-position: auto auto;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cuerpo-campeonato .foto-nombre .foto-campeon3 {
+  background-image: url("fotocampeon3.png");
+  background-size: 100% 100%;
+  background-position: auto auto;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cuerpo-campeonato .foto-nombre .foto-campeon4 {
+  background-image: url("fotocampeon4.png");
+  background-size: 100% 100%;
+  background-position: auto auto;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cuerpo-campeonato .foto-nombre .foto-campeon5 {
+  background-image: url("a-team.png");
+  background-size: 100% 100%;
+  background-position: auto auto;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cuerpo-campeonato .foto-nombre .posicion-campeon {
+  width: 195px;
+  height: 90px;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*Link para campeonatos interna--------------------------------------------------*/
+
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cuerpo-campeonato .foto-nombre .caja-detalle {
+  display: none;
+  float: left;
+  margin: -75px 0 0 110px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cuerpo-campeonato .foto-nombre .caja-detalle a {
+  display: block;
+  margin: 0px;
+  padding: 2px 5px;
+  color: #fff;
+  background-color: #F58220;
+  border: 2px solid #FDDD32;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-family: aero;
+  font-size: 15px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cuerpo-campeonato .foto-nombre:hover > .caja-detalle {
+  display: block;
+}
+/*Fin Link para campeonatos interna--------------------------------------------------*/
+
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cuerpo-campeonato .foto-nombre h3 {
+  display: block;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: aero;
+  font-size: 15px;
+  background-color: #f58220;
+  color: #fddd32;
+  font-style: italic;
+  letter-spacing: 1px;
+  width: 175px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cuerpo-campeonato .descripcion-campeon {
+  display: block;
+  margin: -167px 0 0 205px;
+  padding: 10px;
+  background-color: #fff799;
+  width: 219px;
+  height: 148px;
+  overflow: hidden;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .cuerpo-campeonato .descripcion-campeon p {
+  text-align: left;
+  font-family: eurostilenormal;
+  font-size: 13px;
+  color: #58595b;
+  letter-spacing: 1px;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .piernas-campeonato {
+  display: block;
+  margin: 10px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .piernas-campeonato nav {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .piernas-campeonato nav ul {
+  display: block;
+  margin: 0 0 0 -8px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .piernas-campeonato nav ul li {
+  display: block;
+  margin: 0 0 0 11px;
+  padding: 5px 10px;
+  float: left;
+  background-color: #fddd32;
+  border-bottom: 3px solid #f58220;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .piernas-campeonato nav ul li:hover {
+  background-color: #f58220;
+  border-bottom: 3px solid #fddd32;
+  color: #fff;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .piernas-campeonato nav ul li a {
+  margin: 0px;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: eurostilebold;
+  font-size: 13px;
+  color: #6d6e71;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+body article section #cuerpo .contenedor-campeonatos nav ul li .campeonato-caja .piernas-campeonato nav ul li:hover > a {
+  color: #fff;
+}
+/*Fin Campeonatos Landing------------------------------------------------------------------------------*/
+
+/*Campeonatos Landing Interna--------------------------------------------------------------------------*/
+body article section #cuerpo .contenedor-campeonatos-internas {
+  display: block;
+  padding: 0px;
+  width: 960px;
+  margin: 30px auto;
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cabeza-campeonato-interna {
+  display: block;
+  margin: 0px 5px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cabeza-campeonato-interna .titulo-interna {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cabeza-campeonato-interna .titulo-interna h1 {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+  font-family: aero;
+  font-style: italic;
+  font-size: 25px;
+  letter-spacing: 1px;
+  color: #0095da;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cabeza-campeonato-interna .titulo-interna h5 {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+  font-family: eurostilenormal;
+  font-style: italic;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #f58220;
+  border-bottom: 1px solid #f58220;
+  width: 250px;
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cabeza-campeonato-interna .contenedor-escudo-interna {
+  display: block;
+  float: left;
+  margin: 30px 10px 0 0;
+  padding: 0px;
+  background-color: #ffcb05;
+  border: 2px solid #f58220;
+  width: 461px;
+  height: 350px;
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cabeza-campeonato-interna .contenedor-escudo-interna .escudo-interna {
+  background-image: url("escudo-grande.png");
+  background-position: center center;
+  background-size: 100% 100%;
+  width: 210px;
+  height: 300px;
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cabeza-campeonato-interna .contenedor-escudo-interna .posicion-interna {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  margin: 30px auto;
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cabeza-campeonato-interna .descripcion-interna {
+  display: block;
+  float: left;
+  margin: 20px 0 0;
+  padding: 0px;
+  background-color: #fff799;
+  border: 2px solid #fff;
+  width: 460px;
+  height: 214px;
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cabeza-campeonato-interna .contenedor-administrador-interna {
+  display: block;
+  float: right;
+  margin: -70px 0 0;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cabeza-campeonato-interna .contenedor-administrador-interna h2 {
+  display: block;
+  margin: 0 0 10px;
+  padding: 0px;
+  color: #f58220;
+  font-family: eurostilebold;
+  font-size: 15px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cabeza-campeonato-interna .contenedor-administrador-interna form {
+  display: block;
+  float: right;
+  margin: 0px 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cabeza-campeonato-interna .contenedor-administrador-interna form .caja {
+  display: block;
+  margin: 0 0 -10px 20px;
+  padding: 0 0 0 5px;
+  width: 265px;
+  height: 30px;
+  font-family: eurostilenormal;
+  font-size: 15px;
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cabeza-campeonato-interna .contenedor-administrador-interna form .comentario {
+  display: block;
+  margin: 0 0 -10px  20px;
+  padding: 5px 0 0 5px;
+  width: 265px;
+  height: 150px;
+  font-family: eurostilenormal;
+  font-size: 15px
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cabeza-campeonato-interna .contenedor-administrador-interna form .boton {
+  display: block;
+  float: right;
+  margin: 0px;
+  padding: 2px;
+  color: #fff;
+  background-color: #f58220;
+  font-family: eurostilebold;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  border-color: #F1B581 #EC6D00 #EC6D00 #F1B581;
+  border-style: solid;
+  border-width: 2px;
+  width: 100px;
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cabeza-campeonato-interna .contenedor-administrador-interna form .boton:hover {
+  color: #fff;
+  background-color: #f58220;
+  border-color: #EC6D00 #F1B581 #F1B581 #EC6D00;
+  border-style: solid;
+  border-width: 2px;
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cabeza-campeonato-interna .contenedor-administrador-interna .datos-admin {
+  display: block;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  background-color: #f58220;
+  border: 2px solid #F58220;
+  width: 170px;
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cabeza-campeonato-interna .contenedor-administrador-interna .datos-admin .contenedor-foto-admin {
+  display: block;
+  background-color: #FFCB05;
+  margin: 0px;
+  padding: 10px 0px 0px;
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cabeza-campeonato-interna .contenedor-administrador-interna .datos-admin .contenedor-foto-admin .foto-admin {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("fotoadmin.png");
+  background-position: center center;
+  background-size: 100% 100%;
+  width: 170px;
+  height: 180px;
+  
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cabeza-campeonato-interna .contenedor-administrador-interna .datos-admin h3 {
+  display: block;
+  margin: 0px;
+  padding: 5px;
+  color: #fff;
+  font-family: eurostilebold;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: left;
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cabeza-campeonato-interna .descripcion-interna p {
+  margin: 0px;
+  padding: 5px;
+  font-family: eurostilenormal;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cabeza-campeonato-interna .mapa-interna {
+  display: block;
+  float: right;
+  margin: 30px 0 0 10px;
+  padding: 0px;
+  border: 2px solid #fff;
+  background-image: url("mapa.png");
+  background-position: center center;
+  background-size: 100% 100%;
+  width: 461px;
+  height: 260px;
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cuerpo-campeonato-interna {
+  display: block;
+  margin: 20px 5px 30px;
+  padding: 0px;
+  width: 100%;
+  height: 330px; /*correccion para chrome*/
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cuerpo-campeonato-interna nav {
+  display: block;
+  margin: 0px auto;
+  padding: 0px;
+  width: 513px;
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cuerpo-campeonato-interna nav ul {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cuerpo-campeonato-interna nav ul a {
+  display: block;
+  margin: 10px 0px;
+  padding: 10px 25px 4px;
+  font-family: eurostilebold;
+  font-size: 20px;
+  color: #fff;
+  background-color: #0095da;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 3px solid #58595b;
+  width: 513px; 
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cuerpo-campeonato-interna nav ul a li {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cuerpo-campeonato-interna nav ul a .flecha {
+  display: block;
+  float: right;
+  margin: -24px -9px;
+  padding: 0px;
+  background-image: url("flecha-desplegable.png");
+  background-position: 0 0;
+  width: 21px;
+  height: 20px;
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cuerpo-campeonato-interna nav ul a:hover {
+  color: #6d6e71;
+  background-color: #fddd32;
+  border-bottom: 3px solid #e67a1e;
+}
+body article section #cuerpo .contenedor-campeonatos-internas .cuerpo-campeonato-interna nav ul a:hover > .flecha {
+  background-image: url("flecha-desplegable.png");
+  background-position: -20px 0;
+}
+/*desde*/
+
+/*hasta*/
+/*Fin Campeonatos Landing Interna-----------------------------------------------------------------------*/
+
+/*Equipos Landing -------------------------------------------------------------------------------------*/
+body article section #cuerpo .slider-equipos {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("sliderequipos.png");
+  background-size: 100% 100%;
+  background-position: center center;
+  width: 100%;
+  height: 501px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.6);
+  border-bottom: 3px solid #0094da;
+}
+body article section #cuerpo .slider-equipos .letrero {
+  float: left;
+  display: block;
+  margin: 450px 0px 30px 250px;
+  padding: 0px;
+}
+body article section #cuerpo .slider-equipos .letrero h4 {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .slider-equipos .letrero h4 a {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  font-family: aero;
+  font-style: italic;
+  font-size: 40px;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.6);
+}
+body article section #cuerpo .slider-equipos .letrero h4 a:hover {
+  color: #0094DA;
+  text-shadow: 2px 2px 1px rgba(255, 255, 255, 0.6);
+}
+
+/*Flechas Slider Equipos----------------------------------*/
+
+body article section #cuerpo .slider-equipos .flechas-slider {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .slider-equipos .flechas-slider .flecha-slider-izq {
+  display: block;
+  float: left;
+  margin: 230px 0 0 -396px;
+  padding: 0px;
+  background-image: url("flecha-sliders.png");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+body article section #cuerpo .slider-equipos .flecha-slider-izq:hover {
+  background-position: 0px -40px;
+  background-image: url("flecha-sliders.png");
+}
+body article section #cuerpo .slider-equipos .flecha-slider-der {
+  display: block;
+  float: right;
+  margin: 230px 115px 0px 0px;
+  padding: 0px;
+  background-image: url("flecha-sliders.png");
+  background-position: -40px 0px;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+body article section #cuerpo .slider-equipos .flecha-slider-der:hover {
+  background-position: -40px -40px;
+  background-image: url("flecha-sliders.png");
+}
+
+/*Fin Flechas Slider Equipos------------------------------*/
+
+body article section #cuerpo .contenedor-equipos {
+  display: block;
+  padding: 5px 5px;
+  width: 960px;
+  margin: 20px auto;
+}
+body article section #cuerpo .contenedor-equipos nav {
+  display: block;
+  padding: 0px;
+  margin: 0px;
+}
+body article section #cuerpo .contenedor-equipos nav ul {
+  display: block;
+  padding: 0px;
+  margin: 0px;
+}
+body article section #cuerpo .contenedor-equipos nav ul li{
+  float: left;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+/*Link para Equipos interna-------------------------------------------*/
+
+body article section #cuerpo .contenedor-equipos nav ul li .equipos-caja .caja-detalle {
+  display: none;
+  float: left;
+  margin: -170px 0 0 195px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-equipos nav ul li .equipos-caja .caja-detalle a {
+  display: block;
+  margin: 0px;
+  padding: 2px 5px;
+  color: #FFCB05;
+  background-color: #F58220;
+  border: 2px solid #FEC209;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-family: aero;
+  font-size: 15px;
+}
+body article section #cuerpo .contenedor-equipos nav ul li .equipos-caja:hover > .caja-detalle {
+  display: block;
+}
+
+/*Fin Link para Equipos interna-------------------------------------------*/
+
+
+body article section #cuerpo .contenedor-equipos nav ul li .equipos-caja {
+  display: block;
+  margin: 5px;
+  padding: 0px;
+  background-color: #f58220;
+  border: 3px solid #fec209;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.75);
+  width: 304px;
+  height: 348px;
+}
+body article section #cuerpo .contenedor-equipos nav ul li .equipos-caja .posicion-equipo {
+  margin: 0;
+  padding: 0;
+  width: 304px;
+  height: 185px;
+  border-bottom: 2px solid #0094DA;
+}
+body article section #cuerpo .contenedor-equipos nav ul li .equipos-caja .posicion-escudo {
+  margin: -40px 0 0 234px;
+  padding: 0;
+  width: 60px;
+  height: 65px;
+}
+
+/*Cambio de escudos, fotos nombres de los equipos----------------------------------------------------*/
+body article section #cuerpo .contenedor-equipos nav ul li .equipos-caja .foto-equipo1 {
+  background-image: url("fotocampeon2.png");
+  background-size: 100% 100%;
+}
+body article section #cuerpo .contenedor-equipos nav ul li .equipos-caja .escudo-equipo1 {
+  background-image: url("escudo2.png");
+  background-size: 100% 100%;
+}
+body article section #cuerpo .contenedor-equipos nav ul li .equipos-caja .foto-equipo2 {
+  background-image: url("a-team.png");
+  background-size: 100% 100%;
+}
+body article section #cuerpo .contenedor-equipos nav ul li .equipos-caja .escudo-equipo2 {
+  background-image: url("escudo3.png");
+  background-size: 100% 100%;
+}
+body article section #cuerpo .contenedor-equipos nav ul li .equipos-caja .foto-equipo3 {
+  background-image: url("nerd-power.png");
+  background-size: 100% 100%;
+}
+body article section #cuerpo .contenedor-equipos nav ul li .equipos-caja .escudo-equipo3 {
+  background-image: url("escudo4.png");
+  background-size: 100% 100%;
+}
+/*Cambio de escudos, fotos nombres de los equipos----------------------------------------------------*/
+
+
+
+body article section #cuerpo .contenedor-equipos nav ul li .equipos-caja .contenedor-descripcion {
+  display: block;
+  margin: -15px 0px 0px;
+  padding: 10px;
+}
+body article section #cuerpo .contenedor-equipos nav ul li .equipos-caja .contenedor-descripcion h2 {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-family: eurostilebold;
+  font-size: 20px;
+  color: #ffcb05;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+body article section #cuerpo .contenedor-equipos nav ul li .equipos-caja .contenedor-descripcion h3 {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-family: eurostilebold;
+  font-size: 15px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+/*Equipos Vacios-------------------------------------------------------------------------------------*/
+
+body article section #cuerpo .contenedor-equipos nav ul li .equipos-vacios {
+  display: block;
+  margin: 5px;
+  padding: 0px;
+  background-color: #c3c4c6;
+  border: 3px solid #808285;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.75);
+  width: 304px;
+  height: 348px;/*firefox*/
+  /*height: 334px; Chrome*/
+}
+body article section #cuerpo .contenedor-equipos nav ul li .equipos-vacios .posicion-vacio {
+  margin: 0;
+  padding: 0;
+  width: 304px;
+  height: 185px;
+  border-bottom: 2px solid #fff;
+}
+body article section #cuerpo .contenedor-equipos nav ul li .equipos-vacios .posicion-escudo-vacio {
+  margin: -40px 0 0 234px;
+  float: left;
+  padding: 0;
+  width: 60px;
+  height: 65px;
+}
+
+/*Cambio de escudos, fotos nombres de los equipos----------------------------------------------------*/
+body article section #cuerpo .contenedor-equipos nav ul li .equipos-vacios .foto-vacio {
+  background-image: url("equipo-gris-vacio.png");
+  background-size: 100% 100%;
+}
+body article section #cuerpo .contenedor-equipos nav ul li .equipos-vacios .escudo-vacio {
+  background-image: url("escudo-gris-vacio.png");
+  background-size: 100% 100%;
+}
+
+/*Cambio de escudos, fotos nombres de los equipos----------------------------------------------------*/
+
+body article section #cuerpo .contenedor-equipos nav ul li .equipos-vacios .descripcion-vacio {
+  display: block;
+  margin: 0px;
+  padding: 0px 10px;
+}
+body article section #cuerpo .contenedor-equipos nav ul li .equipos-vacios .descripcion-vacio h2 {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-family: eurostilenormal;
+  font-size: 20px;
+  color: #58595b;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+body article section #cuerpo .contenedor-equipos nav ul li .equipos-vacios .descripcion-vacio h3 {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-family: eurostilenormal;
+  font-size: 15px;
+  color: #58595b;
+  letter-spacing: 1px;
+}
+/*ajsdhasdjkl*/
+
+body article section #cuerpo .contenedor-equipos nav ul li .equipos-vacios:hover {
+  border: 3px solid #fff;
+}
+body article section #cuerpo .contenedor-equipos nav ul li .equipos-vacios:hover > .posicion-vacio {
+  border-bottom: 2px solid #808285;
+}
+body article section #cuerpo .contenedor-equipos nav ul li .equipos-vacios:hover > .foto-vacio {
+  background-image: url("equipo-blanco-vacio.png");
+}
+body article section #cuerpo .contenedor-equipos nav ul li .equipos-vacios:hover > .escudo-vacio {
+  background-image: url("escudo-color-vacio.png");
+}
+body article section #cuerpo .contenedor-equipos nav ul li .equipos-vacios:hover > .descripcion-vacio h2 {
+  color: #f58220;
+}
+
+/*Equipos Vacios Fin----------------------------------------------------------------------------------*/
+
+/*Equipos Landing Fin----------------------------------------------------------------------------------*/
+
+/*Equipos Interna -------------------------------------------------------------------------------------*/
+
+/*Detalle Equipo  -------------------------------------------------------------------------------------*/
+body article section #cuerpo .contenedor-equipos-interna {
+  display: block;
+  width: 960px;
+  margin: 30px auto 0;
+  padding: 0;
+}
+body article section #cuerpo .contenedor-equipos-interna .equipos-interna-foto {
+  display: block;
+  width: 585px;
+  height: 350px;
+  margin: 0 0 0 5px;
+  padding: 0px;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.75);
+  border: 2px solid #fec209;
+}
+body article section #cuerpo .contenedor-equipos-interna .equipos-interna-detalle {
+  display: block;
+  background-color: #ededee;
+  float: right;
+  width: 340px;
+  height: 79px;
+  margin: -354px 5px 0 0;
+  padding: 0px;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.75);
+  border: 2px solid #fec209;
+}
+body article section #cuerpo .contenedor-equipos-interna .equipos-interna-fecha {
+  display: block;
+  float: right;
+  width: 340px;
+  height: 260px;
+  margin: -264px 5px 0 0;
+  padding: 0px;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.75);
+  border: 2px solid #fec209;
+}
+body article section #cuerpo .contenedor-equipos-interna .equipos-interna-foto .foto-equipo-interna {
+  background-image: url("a-team.png");
+  background-size: 100% 100%;
+}
+body article section #cuerpo .contenedor-equipos-interna .equipos-interna-foto .posicion-equipo-interna {
+  margin: 0;
+  padding: 0;
+  width: 585px;
+  height: 294px;
+}
+body article section #cuerpo .contenedor-equipos-interna .equipos-interna-foto .contenedor-nombre-interna {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-equipos-interna .equipos-interna-foto .contenedor-nombre-interna h2 {
+  display: block;
+  background-color: #f58220;
+  margin: 0px;
+  padding: 11px;
+  color: #fff;
+  font-family: aero;
+  font-size: 30px;
+  font-style: italic;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.6); 
+}
+body article section #cuerpo .contenedor-equipos-interna .equipos-interna-foto .escudo-equipo-interna {
+  background-image: url("escudo-interna-a.png");
+  background-size: 100% 100%;
+}
+body article section #cuerpo .contenedor-equipos-interna .equipos-interna-foto .posicion-escudo-interna {
+  display: block;
+  float: right;
+  margin: -54px 10px 0 0;
+  padding: 0px;
+  width: 100px;
+  height: 100px;
+}
+body article section #cuerpo .contenedor-equipos-interna .equipos-interna-detalle .contenedor-descripcion-interna {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-equipos-interna .equipos-interna-detalle .contenedor-descripcion-interna h3 {
+  display: block;
+  margin: 10px;
+  padding: 0px;
+  color: #58595b;
+  font-family: eurostilenormal;
+  font-size: 15px;
+  letter-spacing: 1px;
+  overflow: hidden;
+}
+body article section #cuerpo .contenedor-equipos-interna .equipos-interna-fecha .contenedor-descripcion-fecha {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-equipos-interna .equipos-interna-fecha .contenedor-descripcion-fecha h2 {
+  display: block;
+  background-color: #f58220;
+  margin: 0px;
+  padding: 10px;
+  color: #fff;
+  font-family: aero;
+  font-size: 30px;
+  font-style: italic;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.6);
+}
+body article section #cuerpo .contenedor-equipos-interna .equipos-interna-fecha .avsb {
+  display: block;
+  background-color: #E1E2E3;
+  margin: 0px;
+  padding: 10px 0;
+}
+body article section #cuerpo .contenedor-equipos-interna .equipos-interna-fecha .avsb .foto-escudoa {
+  background-image: url("escudo-interna-a.png");
+  background-size: 100% 100%;
+}
+body article section #cuerpo .contenedor-equipos-interna .equipos-interna-fecha .avsb .posicion-escudoa {
+  margin: 20px 0 0 20px;
+  padding: 0px;
+  width: 90px;
+  height: 90px;
+}
+body article section #cuerpo .contenedor-equipos-interna .equipos-interna-fecha .avsb .foto-escudob {
+  background-image: url("escudo-interna-b.png");
+  background-size: 100% 100%;
+}
+body article section #cuerpo .contenedor-equipos-interna .equipos-interna-fecha .avsb .posicion-escudob {
+  margin: 62px 0 0 230px;
+  padding: 0px;
+  width: 90px;
+  height: 90px;
+}
+body article section #cuerpo .contenedor-equipos-interna .equipos-interna-fecha .avsb h3 {
+  background-color: #fff;
+  color: #000;
+  font-size: 30px;
+  font-family: aero;
+  text-align: center;
+  border-color: #E4E4E4 #E4E4E4 #9C9EA0 #9C9EA0;
+  border-style: solid;
+  border-width: 2px;
+  width: 35px;
+  height: 35px;
+  display: block;
+  margin: 100px 0 0 25px;
+  padding: 0px;
+  float: left;
+}
+body article section #cuerpo .contenedor-equipos-interna .equipos-interna-fecha .avsb h4 {
+  color: #fff;
+  font-size: 25px;
+  font-family: aero;
+  text-align: center;
+  display: block;
+  margin: -115px 85px;
+  padding: 0px;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.6);
+}
+body article section #cuerpo .contenedor-equipos-interna .equipos-interna-fecha .dia-hora-cancha {
+  display: block;
+  background-color: #F58220;
+  width: 340px;
+  height: 26.5px;
+}
+body article section #cuerpo .contenedor-equipos-interna .equipos-interna-fecha .dia-hora-cancha nav  {
+  display: block;
+  padding: 0px;
+  margin: 0 10px;
+  padding: 5px;
+}
+body article section #cuerpo .contenedor-equipos-interna .equipos-interna-fecha .dia-hora-cancha nav ul {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-equipos-interna .equipos-interna-fecha .dia-hora-cancha nav ul li {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+}
+body article section #cuerpo .contenedor-equipos-interna .equipos-interna-fecha .dia-hora-cancha nav ul li h5 {
+  display: block;
+  margin: 3px 4px;
+  padding: 0px 3px;
+  color: #fff;
+  font-family: eurostilenormal;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0px;
+}
+body article section #cuerpo .contenedor-equipos-interna .equipos-interna-fecha .dia-hora-cancha nav.detalle-fechas ul li .dia {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-equipos-interna .equipos-interna-fecha .dia-hora-cancha nav.detalle-fechas ul li .hora {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-equipos-interna .equipos-interna-fecha .dia-hora-cancha nav.detalle-fechas ul li .cancha {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+/*Fin Detalle Equipo  ----------------------------------------------------------------------------------*/
+
+/*Jugadores Equipo  ------------------------------------------------------------------------------------*/
+body article section #cuerpo .contenedor-equipos-jugadores {
+  display: block;
+  width: 960px;
+  margin: 25px auto 0;
+  padding: 0;
+}
+body article section #cuerpo .contenedor-equipos-jugadores nav.jugadores {
+  display: block;
+  margin: 0px;
+  padding: 0;
+}
+body article section #cuerpo .contenedor-equipos-jugadores nav.jugadores ul {
+  display: block;
+  margin: 0px -5px;
+  padding: 0;
+}
+body article section #cuerpo .contenedor-equipos-jugadores nav.jugadores ul li {
+  display: block;
+  float: left;
+  margin: 10px;
+  padding: 0;
+}
+body article section #cuerpo .contenedor-equipos-jugadores nav.jugadores ul li .contenedor-jugadores {
+  display: block;
+  background-color: #939598;
+  border: 2px solid #0095da;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.75);
+  margin: 0px;
+  padding: 0px;
+  width: 218px;
+  height: 258px;
+}
+body article section #cuerpo .contenedor-equipos-jugadores nav.jugadores ul li .contenedor-jugadores:hover {
+  background-color: #f58220;
+  border: 2px solid #fec209;
+}
+
+
+/*Posicion y Fotos de jugadores----------------------------------------------*/
+
+body article section #cuerpo .contenedor-equipos-jugadores nav.jugadores ul li .contenedor-jugadores .jugador-foto {
+  background-image: url("jugador.png");
+  background-size: 100% 100%;
+}
+body article section #cuerpo .contenedor-equipos-jugadores nav.jugadores ul li .contenedor-jugadores:hover > .jugador-foto {
+  background-image: url("jugadorhover.png");
+  background-size: 100% 100%;
+}
+body article section #cuerpo .contenedor-equipos-jugadores nav.jugadores ul li .contenedor-jugadores .jugador-posicion {
+  display: block;
+  width: 218px;
+  height: 220px;
+  margin-top: 10px;
+}
+
+/*Fin Posicion y Fotos de jugadores----------------------------------------------*/
+
+
+body article section #cuerpo .contenedor-equipos-jugadores nav.jugadores ul li .contenedor-jugadores .jugador-posicion h3 {
+  display: block;
+  float: right;
+  width: 35px;
+  margin: -10px 0 0;
+  padding: 5px;
+  font-family: eurostilenormal;
+  font-size: 25px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #fff;
+  background-color: #0095da;
+}
+body article section #cuerpo .contenedor-equipos-jugadores nav.jugadores ul li .contenedor-jugadores:hover > .jugador-posicion h3 {
+  background-color: #fec209;
+}
+body article section #cuerpo .contenedor-equipos-jugadores nav.jugadores ul li .contenedor-jugadores .jugador-posicion h4 {
+  display: block;
+  margin: 132px 0 10px;
+  padding: 10px;
+  font-family: eurostilenormal;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background-color: #0095da;
+  width: 100px;
+}
+body article section #cuerpo .contenedor-equipos-jugadores nav.jugadores ul li .contenedor-jugadores:hover > .jugador-posicion h4 {
+  background-color: #fec209;
+}
+body article section #cuerpo .contenedor-equipos-jugadores nav.jugadores ul li .contenedor-jugadores .jugador-posicion h5 {
+  display: block;
+  margin: 0px;
+  padding: 10px;
+  font-family: eurostilenormal;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background-color: #0095da;
+}
+body article section #cuerpo .contenedor-equipos-jugadores nav.jugadores ul li .contenedor-jugadores:hover > .jugador-posicion h5 {
+  background-color: #fec209;
+}
+
+/*Contactar a delegado-------------------------------*/
+
+
+body article section #cuerpo .contenedor-equipos-delegado .contenedor-delegado {
+  display: block;
+  background-color: #939598;
+  border: 2px solid #0095da;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.75);
+  margin: 0px;
+  padding: 0px;
+  width: 218px;
+  height: 258px;
+}
+
+
+/*Posicion y Foto de delegado----------------------------------------------*/
+
+body article section #cuerpo .contenedor-equipos-delegado .contenedor-delegado .delegado-foto {
+  background-image: url("jugador.png");
+  background-size: 100% 100%;
+}
+body article section #cuerpo .contenedor-equipos-delegado .contenedor-delegado .delegado-posicion {
+  display: block;
+  width: 218px;
+  height: 220px;
+  margin-top: 10px;
+}
+
+/*Fin Posicion y Foto de Delegado----------------------------------------------*/
+
+body article section #cuerpo .contenedor-equipos-delegado {
+  display: block;
+  width: 550px;
+  margin: 25px auto 30px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-equipos-delegado h1 {
+  display: block;
+  margin: 0 0 10px;
+  padding: 0px;
+  color: #f58220;
+  font-family: eurostilebold;
+  font-size: 15px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+body article section #cuerpo .contenedor-equipos-delegado .contenedor-delegado .delegado-posicion h4 {
+  display: block;
+  float: left;
+  margin: 162px 0 10px;
+  padding: 10px;
+  font-family: eurostilenormal;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background-color: #0095da;
+  width: 100px;
+}
+body article section #cuerpo .contenedor-equipos-delegado .contenedor-delegado .delegado-posicion h5 {
+  display: block;
+  float: left;
+  margin: 0px;
+  padding: 10px;
+  font-family: eurostilenormal;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background-color: #0095da;
+  width: 198px; 
+}
+body article section #cuerpo .contenedor-equipos-delegado form {
+  display: block;
+  margin: -262px 0 0 250px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-equipos-delegado form .caja {
+  display: block;
+  margin: 0 0 -10px;
+  padding: 0 0 0 5px;
+  width: 300px;
+  height: 30px;
+  font-family: eurostilenormal;
+  font-size: 15px;
+}
+body article section #cuerpo .contenedor-equipos-delegado form .comentario {
+  display: block;
+  margin: 0 0 -10px;
+  padding: 5px 0 0 5px;
+  width: 300px;
+  height: 95px;
+  font-family: eurostilenormal;
+  font-size: 15px
+}
+body article section #cuerpo .contenedor-equipos-delegado form .boton {
+  display: block;
+  margin:  0 0 0 207px;
+  padding: 2px;
+  color: #fff;
+  background-color: #f58220;
+  font-family: eurostilebold;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  border-color: #F1B581 #EC6D00 #EC6D00 #F1B581;
+  border-style: solid;
+  border-width: 2px;
+  width: 100px;
+}
+body article section #cuerpo .contenedor-equipos-delegado form .boton:hover {
+  color: #fff;
+  background-color: #f58220;
+  border-color: #EC6D00 #F1B581 #F1B581 #EC6D00;
+  border-style: solid;
+  border-width: 2px;
+}
+
+
+body article section #cuerpo .contenedor-equipos-delegado a {
+  display: block;
+  margin: 20px 0px;
+  padding: 10px 25px 4px;
+  font-family: eurostilebold;
+  font-size: 20px;
+  color: #fff;
+  background-color: #0095da;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 3px solid #58595b;
+  width: 513px; 
+}
+body article section #cuerpo .contenedor-equipos-delegado a .flechas {
+  display: block;
+  float: right;
+  margin: 0px -15px;
+  padding: 0px;
+  background-image: url("flecha-desplegable.png");
+  background-position: 0 0;
+  width: 21px;
+  height: 20px;
+}
+body article section #cuerpo .contenedor-equipos-delegado a:hover {
+  color: #6d6e71;
+  background-color: #fddd32;
+  border-bottom: 3px solid #e67a1e;
+}
+body article section #cuerpo .contenedor-equipos-delegado a:hover > .flechas {
+  background-image: url("flecha-desplegable.png");
+  background-position: 21px 0;
+}
+/*Fin Equipos Interna -------------------------------------------------------------------------------------*/
+
+/*Fixture Landing -------------------------------------------------------------------------------------*/
+
+body article section #cuerpo .contenedor-fixture {
+  display: block;
+  width: 960px;
+  margin: 0px auto;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-navcampeonatos {
+  display: block;
+  margin: 20px auto 0;
+  padding: 0px;
+}
+/* Mini Nav.--------------------------------------------------------*/
+body article section #cuerpo .contenedor-fixture .contenedor-navcampeonatos nav.navegacion-campeonatos {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-navcampeonatos nav.navegacion-campeonatos ul {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-navcampeonatos nav.navegacion-campeonatos ul li {
+  display: block;
+  margin: 0px 1px;
+  padding: 0px;
+  float: left;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-navcampeonatos nav.navegacion-campeonatos ul li a {
+  display: block;
+  margin: 0px;
+  padding: 10px;
+  background-color: #EFEFEF;
+  color: #59595B;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: eurostilebold;
+  font-size: 15px;
+  width: 140px;
+  border-left: 2px solid #ffcb05;
+  border-right: 2px solid #ffcb05;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-navcampeonatos nav.navegacion-campeonatos ul li a:hover {
+  background-color: #f58220;
+  color: #fff;
+}
+}body article section #cuerpo .contenedor-fixture .contenedor-navcampeonatos nav.navegacion-campeonatos ul li a.clicked2 {
+  background-color: #f58220;
+  color: #fff;
+}
+
+/* Fin Mini Nav.--------------------------------------------------------*/
+
+/* Proximas fechas-------------------------------------------------------*/
+
+body article section #cuerpo .contenedor-fixture h1{
+  display: block;
+  margin: 30px auto 0px;
+  padding: 0px;
+  color: #f58220;
+  font-family: aero;
+  font-size: 30px;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.6);
+  width: 320px;
+}
+
+body article section #cuerpo .contenedor-fixture .contenedor-proximas-fechas {
+  display: block;
+  margin: 30px 0px 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-proximas-fechas .proxima-fecha  {
+  display: block;
+  margin: 0px 0px 20px;
+  padding: 0px;
+}
+
+/* Escudos Nombres de Equipos-------------------------------------------------------*/
+
+body article section #cuerpo .contenedor-fixture .contenedor-proximas-fechas .proxima-fecha .equipo-vs-equipo {
+  display: block;
+  margin: 0px auto;
+  padding: 0px;
+  width: 960px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-proximas-fechas .proxima-fecha .equipo-vs-equipo nav{
+  display: block;
+  margin: 0px 17px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-proximas-fechas .proxima-fecha .equipo-vs-equipo nav ul{
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-proximas-fechas .proxima-fecha .equipo-vs-equipo nav ul li {
+  display: block;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-proximas-fechas .proxima-fecha .equipo-vs-equipo nav ul li .escudo {
+  background-color: #f58220;
+  border: 3px solid #ffdd2a;
+  background-image: url("escudo-fixture.png");
+  background-size: 100% 100%;
+  border-radius: 61px;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-proximas-fechas .proxima-fecha .equipo-vs-equipo nav ul li .izq {
+  display: block;
+  margin: 0 -20px 0 20px;
+  padding: 0px;
+  width: 115px;
+  height: 115px;
+  position: relative;
+}
+
+body article section #cuerpo .contenedor-fixture .contenedor-proximas-fechas .proxima-fecha .equipo-vs-equipo nav ul li .der {
+  display: block;
+  margin: 0 20px 0 -20px;
+  padding: 0px;
+  width: 115px;
+  height: 115px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-proximas-fechas .proxima-fecha .equipo-vs-equipo nav ul li h4 {
+  display: block;
+  background-color: #4295d1;
+  margin: 0px;
+  padding: 12px 30px 18px;
+  color: #FFf;
+  font-family: aero;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 3px solid #ffdd2a;
+  border-bottom: 3px solid #ffdd2a;
+  width: 242px;
+  height: 46px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-proximas-fechas .proxima-fecha .equipo-vs-equipo nav ul li .nombre-a {
+  display: block;
+  margin: 22px 0 0;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-proximas-fechas .proxima-fecha .equipo-vs-equipo nav ul li .nombre-b {
+  display: block;
+  margin: 22px 0 0;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-proximas-fechas .proxima-fecha .equipo-vs-equipo nav ul li h2 {
+  display: block;
+  background-color: #4295d1;
+  margin: 22px 0 0 0;
+  padding: 15px 10px;
+  color: #ffde2d;
+  font-family: aero;
+  font-size: 41px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-top: 3px solid #ffdd2a;
+  border-bottom: 3px solid #ffdd2a;
+}
+
+/* Fin Escudos Nombres de Equipos-------------------------------------------------------*/
+
+/* Resultados fechas-------------------------------------------------------*/
+body article section #cuerpo .contenedor-fixture .contenedor-proximas-fechas .proxima-fecha .resultados-fechas {
+  display: block;
+  width: 960px;
+  margin: 2px auto 20px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-proximas-fechas .proxima-fecha .resultados-fechas nav {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-proximas-fechas .proxima-fecha .resultados-fechas nav ul {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-proximas-fechas .proxima-fecha .resultados-fechas nav ul li {
+  display: block;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-proximas-fechas .proxima-fecha .resultados-fechas nav ul li h3 {
+  display: block;
+  margin: 0px;
+  padding: 10px 15px;
+  width: 10px;
+  background-color: #fff;
+  border: 2px solid #4295d1;
+  text-align: center;
+  font-family: aero;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-proximas-fechas .proxima-fecha .resultados-fechas nav ul li .resultado-a {
+  display: block;
+  margin: 6px 0 0 75px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-proximas-fechas .proxima-fecha .resultados-fechas nav ul li .resultado-b {
+  display: block;
+  margin: 6px 0 0 0; 
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-proximas-fechas .proxima-fecha .resultados-fechas nav ul li .detalle-fecha {
+  display: block;
+  background-color: #ffde2d;
+  margin: 0 173px 0 168px;
+  padding: 5px 15px;
+  width: 350px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-proximas-fechas .proxima-fecha .resultados-fechas nav ul li .detalle-fecha h5 {
+  display: block;
+  margin: 0px;
+  padding: 3px;
+  text-align: center;
+  -moz- letter-spacing: 1px;
+  -webkit- letter-spacing: 0px;
+  font-family: eurostilenormal;
+  font-size: 14px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-proximas-fechas .proxima-fecha .resultados-fechas nav ul li .detalle-fecha .dias {
+  display: block;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  background-color: #fff;
+  width: 150px;
+  height: 20px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-proximas-fechas .proxima-fecha .resultados-fechas nav ul li .detalle-fecha .horas {
+  display: block;
+  float: right;
+  margin: 0px;
+  padding: 0px;
+  background-color: #fff;
+  width: 150px;
+  height: 20px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-proximas-fechas .proxima-fecha .resultados-fechas nav ul li .detalle-fecha .lugares {
+  display: block;
+  float: left;
+  margin: 10px 0 0 0;
+  padding: 0 92px 0 55px;
+  background-color: #fff;
+  width: 203px;
+  height: 20px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-proximas-fechas .proxima-fecha .resultados-fechas nav ul li .detalle-fecha .lugares a {
+  display: block;
+  float: right;
+  margin: 0 -66px 0 0;
+  padding: 0px;
+  color: #f58220;
+  text-align: center;
+  letter-spacing: 0px;
+  font-family: eurostilenormal;
+  font-size: 14px;
+}
+
+/* Fin Proximas fechas-------------------------------------------------------*/
+
+/* Fechas anteriores-------------------------------------------------------*/
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores {
+  display: block;
+  margin: 20px 0 30px;
+  padding: 0px;
+}
+
+/* Ateriores Izquierda--------------------------------------------------------*/
+
+
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-izq{
+  display: block;
+  float: left;
+  margin: 0px 10px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-izq .fecha-anterior {
+  display: block;
+  margin: 0 0 10px 0;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-izq .fecha-anterior .equipo-vs-equipo {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  width: 460px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-izq .fecha-anterior .equipo-vs-equipo nav{
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-izq .fecha-anterior .equipo-vs-equipo nav ul{
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-izq .fecha-anterior .equipo-vs-equipo nav ul li {
+  display: block;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-izq .fecha-anterior .equipo-vs-equipo nav ul li .escudo {
+  background-color: #f58220;
+  border: 1px solid #ffdd2a;
+  background-image: url("escudo-fixture.png");
+  background-size: 100% 100%;
+  border-radius: 53px;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-izq .fecha-anterior .equipo-vs-equipo nav ul li .izq {
+  display: block;
+  margin: 0 -15px 0 15px;
+  padding: 0px;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-izq .fecha-anterior .equipo-vs-equipo nav ul li .der {
+  display: block;
+  margin: 0 15px 0 -15px;
+  padding: 0px;
+  width: 50px;
+  height: 50px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-izq .fecha-anterior .equipo-vs-equipo nav ul li h4 {
+  display: block;
+  background-color: #4295d1;
+  margin: 0px;
+  padding: 6px 15px 9px;
+  color: #FFf;
+  font-family: aero;
+  font-size: 9.4px;
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 1px solid #ffdd2a;
+  border-bottom: 1px solid #ffdd2a;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-izq .fecha-anterior .equipo-vs-equipo nav ul li .nombre-a {
+  display: block;
+  margin: 6.5px 0 0;
+  padding: 0px;
+  width: 161px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-izq .fecha-anterior .equipo-vs-equipo nav ul li .nombre-b {
+  display: block;
+  margin: 6.5px 0 0;
+  padding: 0px;
+  width: 161px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-izq .fecha-anterior .equipo-vs-equipo nav ul li .vs {
+  display: block;
+  background-color: #4295d1;
+  margin: 6.5px 0 0;
+  width: ;
+  height: 37px;
+  border-top: 1px solid #ffdd2a;
+  border-bottom: 1px solid #ffdd2a;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-izq .fecha-anterior .equipo-vs-equipo nav ul li .vs h2 {
+  display: block;
+  margin: 10.5px 0;
+  padding: 0 5px;
+  color: #ffde2d;
+  font-family: aero;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Fin Escudos Nombres de Equipos-------------------------------------------------------*/
+
+/* Resultados fechas-------------------------------------------------------*/
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-izq .fecha-anterior .resultados-fechas {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-izq .fecha-anterior .resultados-fechas nav {
+  display: block;
+  margin: 0 117px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-izq .fecha-anterior .resultados-fechas nav ul {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-izq .fecha-anterior .resultados-fechas nav ul li {
+  display: block;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-izq .fecha-anterior .resultados-fechas nav ul li h3 {
+  display: block;
+  margin: 0px;
+  padding: 5px 10px;
+  width: 10px;
+  background-color: #fff;
+  border: 1px solid #4295d1;
+  text-align: center;
+  font-family: aero;
+  font-size: 15px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-izq .fecha-anterior .resultados-fechas nav ul li .resultado-a {
+  display: block;
+  margin: 0 80px 0 0;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-izq .fecha-anterior .resultados-fechas nav ul li .resultado-b {
+  display: block;
+  margin: 0 0px 0 80px;
+  padding: 0px;
+}
+
+
+/* Fin Ateriores Izquierda--------------------------------------------------------*/
+
+/* Ateriores Derecha--------------------------------------------------------*/
+
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-der{
+  display: block;
+  float: right;
+  margin: 0px 10px 0;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-der .fecha-anterior {
+  display: block;
+  margin: 0 0 10px 0;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-der .fecha-anterior .equipo-vs-equipo {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  width: 460px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-der .fecha-anterior .equipo-vs-equipo nav{
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-der .fecha-anterior .equipo-vs-equipo nav ul{
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-der .fecha-anterior .equipo-vs-equipo nav ul li {
+  display: block;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-der .fecha-anterior .equipo-vs-equipo nav ul li .escudo {
+  background-color: #f58220;
+  border: 1px solid #ffdd2a;
+  background-image: url("escudo-fixture.png");
+  background-size: 100% 100%;
+  border-radius: 53px;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-der .fecha-anterior .equipo-vs-equipo nav ul li .izq {
+  display: block;
+  margin: 0 -15px 0 15px;
+  padding: 0px;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-der .fecha-anterior .equipo-vs-equipo nav ul li .der {
+  display: block;
+  margin: 0 15px 0 -15px;
+  padding: 0px;
+  width: 50px;
+  height: 50px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-der .fecha-anterior .equipo-vs-equipo nav ul li h4 {
+  display: block;
+  background-color: #4295d1;
+  margin: 0px;
+  padding: 6px 15px 9px;
+  color: #FFf;
+  font-family: aero;
+  font-size: 9.4px;
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 1px solid #ffdd2a;
+  border-bottom: 1px solid #ffdd2a;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-der .fecha-anterior .equipo-vs-equipo nav ul li .nombre-a {
+  display: block;
+  margin: 6.5px 0 0;
+  padding: 0px;
+  width: 161px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-der .fecha-anterior .equipo-vs-equipo nav ul li .nombre-b {
+  display: block;
+  margin: 6.5px 0 0;
+  padding: 0px;
+  width: 161px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-der .fecha-anterior .equipo-vs-equipo nav ul li .vs {
+  display: block;
+  background-color: #4295d1;
+  margin: 6.5px 0 0;
+  width: ;
+  height: 37px;
+  border-top: 1px solid #ffdd2a;
+  border-bottom: 1px solid #ffdd2a;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-der .fecha-anterior .equipo-vs-equipo nav ul li .vs h2 {
+  display: block;
+  margin: 10.5px 0;
+  padding: 0 5px;
+  color: #ffde2d;
+  font-family: aero;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Fin Escudos Nombres de Equipos-------------------------------------------------------*/
+
+/* Resultados fechas-------------------------------------------------------*/
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-der .fecha-anterior .resultados-fechas {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-der .fecha-anterior .resultados-fechas nav {
+  display: block;
+  margin: 0 117px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-der .fecha-anterior .resultados-fechas nav ul {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-der .fecha-anterior .resultados-fechas nav ul li {
+  display: block;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-der .fecha-anterior .resultados-fechas nav ul li h3 {
+  display: block;
+  margin: 0px;
+  padding: 5px 10px;
+  width: 10px;
+  background-color: #fff;
+  border: 1px solid #4295d1;
+  text-align: center;
+  font-family: aero;
+  font-size: 15px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-der .fecha-anterior .resultados-fechas nav ul li .resultado-a {
+  display: block;
+  margin: 0 80px 0 0;
+  padding: 0px;
+}
+body article section #cuerpo .contenedor-fixture .contenedor-fechas-anteriores .fechas-anteriores-der .fecha-anterior .resultados-fechas nav ul li .resultado-b {
+  display: block;
+  margin: 0 0 0 80px;
+  padding: 0px;
+}
+
+/* Fin Ateriores Derecha--------------------------------------------------------*/
+
+/*Fin Fixture Landing -------------------------------------------------------------------------------------*/
+
+/*Noticias Landing -------------------------------------------------------------------------------------*/
+
+body article section #cuerpo .noticias-landing {
+  display: block;
+  margin: 30px auto;
+  padding: 0px;
+  width: 960px;
+}
+body article section #cuerpo .noticias-landing nav {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .noticias-landing nav ul {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .noticias-landing nav ul li {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .noticias-landing nav ul li .contenedor-noticia {
+  display: block;
+  margin: 0 0 30px;
+  padding: 0px;
+}
+body article section #cuerpo .noticias-landing nav ul li .contenedor-noticia .datos-noticia {
+  display: block;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  width: 560px;
+}
+body article section #cuerpo .noticias-landing nav ul li .contenedor-noticia .datos-noticia h1 {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  color: #0095da;
+  font-family: aero;
+  font-size: 30px;
+  text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, -1px 1px 0 #fff, 1px -1px 0 #fff;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+body article section #cuerpo .noticias-landing nav ul li .contenedor-noticia .datos-noticia h2 {
+  display: block;
+  margin: 10px 0 30px;
+  padding: 0px;
+  color: #f58220;
+  font-family: eurostilenormal;
+  font-size: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #f58220;
+  width: 356px
+}
+body article section #cuerpo .noticias-landing nav ul li .contenedor-noticia .datos-noticia .foto-noticia {
+  display: block;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  width: 350px;
+  height: 230px;
+  background-color: #ffcb05;
+  border: 3px solid #f58220;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.6);
+}
+body article section #cuerpo .noticias-landing nav ul li .contenedor-noticia .datos-noticia .foto-noticia p {
+  display: block;
+  margin: 85px auto;
+  padding: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: eurostilebold;
+  font-size: 30px; 
+}
+body article section #cuerpo .noticias-landing nav ul li .contenedor-noticia .datos-noticia .bloque1 {
+  display: block;
+  float: right;
+  margin: 0px;
+  padding: 0px;
+  width: 194px;
+  height: 236px;
+  background-color: #fff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+}
+body article section #cuerpo .noticias-landing nav ul li .contenedor-noticia .datos-noticia .bloque1 h4 {
+  display: block;
+  margin: 0px;
+  padding: 5px 10px;
+  font-family: eurostilenormal;
+  font-size: 20px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+body article section #cuerpo .noticias-landing nav ul li .contenedor-noticia .datos-noticia .bloque2 {
+  display: block;
+  margin: 10px 0;
+  padding: 0px;
+  width: 560px;
+  height: 140px;
+  background-color: #fff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+}
+body article section #cuerpo .noticias-landing nav ul li .contenedor-noticia .datos-noticia .bloque2 h3 {
+  display: block;
+  margin: 0px;
+  padding: 5px 10px;
+  font-family: eurostilenormal;
+  font-size: 15px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+body article section #cuerpo .noticias-landing nav ul li .contenedor-noticia .datos-noticia .bloque2 a {
+  display: block;
+  float: right;
+  margin: 0px;
+  padding: 0px;
+  color: #f58220;
+  font-family: eurostilebold;
+  font-size: 18px;
+  text-transform: uppercase; 
+}
+body article section #cuerpo .noticias-landing nav ul li .contenedor-noticia .datos-noticia .compartir {
+  display: block;
+  float: right;
+  margin: 0px;
+  padding: 0px;
+  background-color: #f58220;
+  width: 150px;
+  height: 35px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+body article section #cuerpo .noticias-landing nav ul li .contenedor-noticia .datos-noticia .compartir h3 {
+  display: block;
+  margin: 0 10px;
+  padding: 5px 10px;
+  color: #fff;
+  font-family: eurostilebold;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+body article section #cuerpo .noticias-landing nav ul li .contenedor-noticia .noticias-recientes {
+  display: block;
+  float: left;
+  margin: 34px 20px;
+  padding: 0px;
+  width: 360px;
+}
+body article section #cuerpo .noticias-landing nav ul li .contenedor-noticia .noticias-recientes h2 {
+  display: block;
+  margin: 10px 0 30px;
+  padding: 0px;
+  color: #f58220;
+  font-family: eurostilenormal;
+  font-size: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #f58220;
+  width: 360px;
+}
+body article section #cuerpo .noticias-landing nav ul li .contenedor-noticia .noticias-recientes .recientes-nav {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .noticias-landing nav ul li .contenedor-noticia .noticias-recientes .recientes-nav nav {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .noticias-landing nav ul li .contenedor-noticia .noticias-recientes .recientes-nav nav ul {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+body article section #cuerpo .noticias-landing nav ul li .contenedor-noticia .noticias-recientes .recientes-nav nav ul li {
+  display: block;
+  margin: 10px 0;
+  padding: 0px;
+}
+body article section #cuerpo .noticias-landing nav ul li .contenedor-noticia .noticias-recientes .recientes-nav nav ul li .recientes1 {
+  display: block;
+  background-color: #0095da;
+  margin: 0px;
+  padding: 0px;
+  width: 360px;
+  height: 122px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+}
+body article section #cuerpo .noticias-landing nav ul li .contenedor-noticia .noticias-recientes .recientes-nav nav ul li .recientes1 h4 {
+  display: block;
+  margin: 0px;
+  padding: 5px 10px;
+  font-family: eurostilenormal;
+  font-size: 20px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+/*Fin Noticias Landing -------------------------------------------------------------------------------------*/
